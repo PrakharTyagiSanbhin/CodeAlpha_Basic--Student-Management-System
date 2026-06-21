@@ -1,4 +1,4 @@
-# 🎓 Student Management System
+#  Student Management System
 
 A complete Student Management System built using **HTML, CSS, and JavaScript** for **Frontend** and **C programming** for **Backend implementation**.
 This project allows users to manage student records efficiently through a user-friendly interface and a file-based backend system. The application supports adding, searching, updating, deleting, and displaying student records while storing data permanently using file handling in C.
