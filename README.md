@@ -26,7 +26,7 @@ The frontend provides an interactive interface, while the backend manages data p
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### Student Record Management
 
@@ -58,7 +58,7 @@ The frontend provides an interactive interface, while the backend manages data p
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 | Technology         | Purpose                    |
 | ------------------ | -------------------------- |
@@ -71,7 +71,7 @@ The frontend provides an interactive interface, while the backend manages data p
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Student-Management-System/
