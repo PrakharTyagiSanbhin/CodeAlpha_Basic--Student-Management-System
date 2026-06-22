@@ -79,7 +79,7 @@ Student-Management-System/
 ├── index.html
 ├── style.css
 ├── script.js
-├── sms.c
+├── backend c language sms.c
 ├── students.dat
 └── README.md
 ```
