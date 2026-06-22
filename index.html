@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎓 Student Management System</h1>
+
+        <div class="form-box">
+
+            <input type="number" id="roll" placeholder="Roll No.">
+
+            <input type="text" id="name" placeholder="Student's Name">
+
+            <input type="text" id="phone" placeholder="Phone No.">
+
+            <input type="text" id="course" placeholder="Course">
+
+            <input type="text" id="department" placeholder="Department / Branch">
+
+            <input type="number" id="semester" placeholder="Semester">
+
+            <input type="number" id="marks" placeholder="Marks">
+
+            <button onclick="addStudent()">
+                Add Student
+            </button>
+
+        </div>
+
+        <div class="search-box">
+
+            <input type="number"
+                   id="searchRoll"
+                   placeholder="Search by Roll No.">
+
+            <button onclick="searchStudent()">
+                Search
+            </button>
+
+        </div>
+
+        <h2>
+            Total Students:
+            <span id="count">0</span>
+        </h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Roll No.</th>
+
+                    <th>Student's Name</th>
+
+                    <th>Phone No.</th>
+
+                    <th>Course</th>
+
+                    <th>Department / Branch</th>
+
+                    <th>Semester</th>
+
+                    <th>Marks</th>
+
+                    <th>Grade</th>
+
+                    <th>Actions</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="studentTable">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
